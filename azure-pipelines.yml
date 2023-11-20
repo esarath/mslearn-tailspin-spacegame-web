@@ -1,10 +1,9 @@
-//
 trigger:
   - '*'
   
 pool:
-    vmImage: 'ubuntu-latest'
-    demands:
+  vmImage: 'ubuntu-latest'
+  demands:
     - npm
   
 variables:
