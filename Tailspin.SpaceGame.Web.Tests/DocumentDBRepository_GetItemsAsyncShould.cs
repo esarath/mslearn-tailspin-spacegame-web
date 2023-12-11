@@ -1,7 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+<<<<<<< HEAD
 using System.Linq;
+=======
+using System.Linq.Expressions;
+>>>>>>> 2405bc93a67b8d1b874350d8842a6dd15b8eceab
 using System.Threading.Tasks;
 using NUnit.Framework;
 using TailSpin.SpaceGame.Web;
@@ -35,7 +39,11 @@ namespace Tests
             const int MAX_RESULTS = 10; // sample up to 10 results
 
             // Form the query predicate.
+<<<<<<< HEAD
             // This expression selects all scores for the provided game region.
+=======
+            // Select all scores for the provided game region.
+>>>>>>> 2405bc93a67b8d1b874350d8842a6dd15b8eceab
             Func<Score, bool> queryPredicate = score => (score.GameRegion == gameRegion);
 
             // Fetch the scores.
